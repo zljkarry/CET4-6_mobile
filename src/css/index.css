@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'font_tiaotiao';
+  src: url("../font/font-tiaotiao/tiaotiao5.0.eot");
+  src: url("../font/font-tiaotiao/tiaotiao5.0.eot?#iefix#font-spider") format("embedded-opentype"), url("../font/font-tiaotiao/tiaotiao5.0.ttf") format("truetype"), url("../font/font-tiaotiao/tiaotiao5.0.woff") format("woff"), url("../font/font-tiaotiao/tiaotiao5.0.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-color: #c2daff;
+}
+
+.header {
+  height: 1.17333rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  align-items: center;
+}
+
+.header .left {
+  width: 2.02667rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .left .signal {
+  margin: 0 0.21333rem 0 0.21333rem;
+}
+
+.header .left .signal ul {
+  width: 0.85333rem;
+  margin: 0.32rem 0 0.32rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.header .left .signal ul li {
+  border-radius: 0.10667rem;
+}
+
+.header .left .signal ul #one {
+  width: 0.14933rem;
+  height: 0.256rem;
+  background-color: #fff;
+}
+
+.header .left .signal ul #two {
+  width: 0.14933rem;
+  height: 0.32rem;
+  background-color: #fff;
+}
+
+.header .left .signal ul #three {
+  width: 0.14933rem;
+  height: 0.384rem;
+  background-color: #fff;
+}
+
+.header .left .signal ul #four {
+  width: 0.14933rem;
+  height: 0.46933rem;
+  background-color: #999;
+}
+
+.header .left .wifi {
+  display: inline-block;
+  width: 0.704rem;
+}
+
+.header .left .wifi img {
+  height: 0.55467rem;
+  margin: 0.32rem 0 0.32rem 0;
+}
+
+.header .time {
+  color: #fefeff;
+  font-size: 0.512rem;
+  margin: auto auto;
+}
+
+.header .electric {
+  width: 1.152rem;
+  height: 0.46933rem;
+  margin-right: 0.21333rem;
+}
+
+.top {
+  margin-top: -0.04267rem;
+  height: 1.70667rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.top img {
+  width: 0.576rem;
+  height: 0.85333rem;
+  margin: 0.32rem 0 0.32rem 0.42667rem;
+}
+
+.top .main_title {
+  width: 100%;
+  font-size: 0.768rem;
+  color: #fefeff;
+  text-align: center;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 16rem;
+  height: 8.53333rem;
+}
+
+.center {
+  background-color: #fbfdff;
+  border: 0.04267rem solid #073b79;
+  border-radius: 0.128rem;
+  width: 14.72rem;
+  height: 12.97067rem;
+  margin: 0.96rem auto;
+  padding-top: 0.64rem;
+  padding-bottom: 0.42667rem;
+}
+
+.center .content {
+  width: 12.16rem;
+  margin: 0.64rem 1.28rem 0 1.28rem;
+  height: 1.06667rem;
+  border-bottom: 0.04267rem solid #cad6e4;
+  display: flex;
+}
+
+.center .content .specialfont {
+  font-family: 'font_tiaotiao';
+  font-size: 0.72533rem;
+  width: 3.73333rem;
+}
+
+.center .content .interval em {
+  display: inline-block;
+  width: 1.49333rem;
+}
+
+.center .content .specialfont_small {
+  font-family: 'font_tiaotiao';
+  font-size: 0.64rem;
+  margin-right: 0.768rem;
+}
+
+.center .content .interval2 {
+  margin-left: 3.73333rem;
+}
+
+.center .content .specific_content {
+  font-size: 0.59733rem;
+  color: #f8822b;
+}
+
+.center .sec_last {
+  width: 10.98667rem;
+  border-bottom: 0.04267rem solid #cad6e4;
+}
+
+.center .last {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 1.70667rem;
+}
+
+.center .last .last_line {
+  width: 7.21067rem;
+  margin: 0.64rem 0.21333rem 0 0;
+  height: 1.06667rem;
+  border-bottom: 0.04267rem solid #cad6e4;
+}
+
+.center .last .bottle {
+  width: 1.216rem;
+  height: 4.05333rem;
+}
+
+.center .last .pen {
+  width: 6.48533rem;
+  height: 3.37067rem;
+}
+
+.footer {
+  color: #4876be;
+  text-align: center;
+  font-size: 0.46933rem;
+  margin-top: 2.45333rem;
+  margin-bottom: 0.42667rem;
+}
